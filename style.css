@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+    text-decoration: none;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: medium;
+}
+
+body {
+    background: rgba(0,250,0,.1);
+}
+
+/* MENU SUPERIOR ^-^
+    - Menu simples com poucos elementos e
+    tendo o resumo essencial do site
+*/
+header {
+    max-width: 100vw;
+    height: auto;
+    padding: 15px 0px;
+    background-color: rgb(255, 255, 255);
+}
+nav {
+    width: 100vw;
+    min-width: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* position: sticky;
+    top: 0; */
+}
+nav ul {
+    display: relative;
+    list-style: none;
+}
+nav ul li {
+    padding: 0 15px;
+    margin: 0 20px;
+}
+nav ul li a {
+    font-weight: 600;
+    color: rgb(0, 100, 0);
+}
+/* CONVITE ;)
+    - Aqui irá aparecer a arte do evento
+*/
+main {
+    width: 100vw;
+    min-height: auto;
+    background: url('files/convite.jpg');
+}
+
+section {
+    width: 100vw;
+}
